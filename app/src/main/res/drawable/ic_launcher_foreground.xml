@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Graduation Cap Top Rhombus -->
+    <path
+        android:pathData="M54,28 L84,40 L54,52 L24,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="28"
+                android:endX="84"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Graduation Cap Lower Arch -->
+    <path
+        android:pathData="M34,45 L34,57 C34,67 74,67 74,57 L74,45 L54,53 Z"
+        android:fillColor="#4F46E5" />
+
+    <!-- Cap Tassel Ribbon & Bob -->
+    <path
+        android:pathData="M81,42 L85,55 L87,55 L85,42 Z"
+        android:fillColor="#FBBF24" />
+    <path
+        android:pathData="M83.5,56 A2.5,2.5 0 1,0 88.5,56 A2.5,2.5 0 1,0 83.5,56 Z"
+        android:fillColor="#F59E0B" />
+
+    <!-- Ascending Coaching Arrow & AI Spark Star in Center/Base -->
+    <!-- Growth Arrow -->
+    <path
+        android:pathData="M48,78 L48,68 L42,68 L54,56 L66,68 L60,68 L60,78 Z"
+        android:fillColor="#10B981" />
+
+    <!-- Golden Star Emblem at Base -->
+    <path
+        android:pathData="M54,74 L55.8,78.2 L60.2,78.6 L56.8,81.4 L57.8,85.8 L54,83.4 L50.2,85.8 L51.2,81.4 L47.8,78.6 L52.2,78.2 Z"
+        android:fillColor="#FBBF24" />
+</vector>

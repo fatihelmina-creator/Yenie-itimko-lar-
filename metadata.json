@@ -1,0 +1,6 @@
+{
+  "name": "EduCoach Pro",
+  "description": "Öğretmen, eğitim koçu, öğrenci ve veliler için yapay zeka destekli kapsamlı koçluk ve başarı takip platformu",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
